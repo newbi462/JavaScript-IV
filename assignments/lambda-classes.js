@@ -62,3 +62,36 @@ class ProjectManager extends Instructor {
     console.log(`${this.name} debugs ${studentObj.name}'s code on ${subjectString}`);
   }
 }
+
+
+
+/*TEST PERSON*/
+console.log("TEST Person");
+let sam = new Person("Sam",30,"Hometown,USA");
+console.log(sam);
+sam.speak();
+
+/*TEST Instructor*/
+console.log("\nTEST Instructor");
+let brit = new Instructor("Brit",25,"Blame Canada","HTML","JavaScript","That is not part of today's lesson");
+console.log(brit);
+brit.demo("stuff");
+brit.grade(sam,"CSS");
+brit.speak()
+
+/*TEST Student*/
+console.log("\nTEST Student");
+let chance = new Student("Chance",30,"Nowhere,USA","sales","CS132",['Html', 'CSS', 'JavaScript']);
+console.log(chance);
+chance.speak();
+chance.listsSubjects();
+chance.PRAssignment("Web Stuff");
+chance.sprintChallenge("Supper Great Web Stuff");
+
+/*TEST ProjectManager*/
+console.log("\nTEST ProjectManager");
+let dan = new ProjectManager("Dan",38,"Top of the World,USA","redux","Python","Don't forget the homies","CS1","Brit");
+console.log(dan);
+dan.speak();
+dan.standUp("web99");
+dan.debugsCode(chance,"HTML")
