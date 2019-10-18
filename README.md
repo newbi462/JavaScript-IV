@@ -18,7 +18,7 @@ This challenge focuses on classes in JavaScript using the new `class` keyword.
 * [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 * [ ] Add your project manager as a reviewer on the pull-request
 * [ ] Your project manager will count the project as complete by merging the branch back into master.
-
+ 
 ## Assignment Description
 
 You already pretty much know all about classes but you're used to seeing them built in the following context:
